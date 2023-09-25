@@ -6471,3 +6471,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.egit.ui 4 0 2023-09-25 09:17:21.798
 !MESSAGE Can't connect to any repository: 
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-09-25 17:34:00.863
+!MESSAGE Can't connect to any repository: 
