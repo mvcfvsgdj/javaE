@@ -1,0 +1,17 @@
+package day20.thread;
+
+import java.util.Iterator;
+
+public class JoinEx {
+
+	public static void main(String[] args) {
+		
+		
+		Thread th = new Thread();
+		
+		th.start();
+
+		System.out.println("ㅂ2");
+	}
+}
+

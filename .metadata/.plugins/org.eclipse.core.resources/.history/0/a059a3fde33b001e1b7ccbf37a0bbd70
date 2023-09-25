@@ -1,0 +1,8 @@
+package day20.thread;
+
+public class AutoSaveEx {
+
+	public static void main(String[] args) {
+		
+	}
+}

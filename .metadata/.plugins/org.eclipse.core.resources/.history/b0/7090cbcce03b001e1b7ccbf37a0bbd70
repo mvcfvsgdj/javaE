@@ -1,0 +1,64 @@
+package day20.thread;
+
+public class Test {
+
+    public static void main(String[] args) {
+        ThreadTest tt = new ThreadTest();
+        Alert aa = new Alert(tt);
+        tt.start();
+        aa.start();
+    }
+}
+
+class ThreadTest extends Thread {
+    private volatile boolean stopRequested = false;
+
+    public void stopThread() {
+        stopRequested = true;
+    }
+
+    @Override
+    public void run() {
+        for (int i = 10; i >= 0; i--) {
+            try {
+                if (stopRequested) {
+                    break;
+                }
+
+                System.out.println(i);
+                long startTime = System.currentTimeMillis();
+                while (System.currentTimeMillis() < startTime + 1000) {
+                    // Waiting for 1 second
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}
+
+class Alert extends Thread {
+    private ThreadTest threadTest;
+
+    public Alert(ThreadTest threadTest) {
+        this.threadTest = threadTest;
+    }
+
+    @Override
+    public void run() {
+        try {
+            for (int i = 1; i <= 10; i++) {
+                if (i == 10)
+                    i = 1;
+                System.out.println("핵미사일 발사!");
+                threadTest.stopThread(); // ThreadTest 스레드 중단 요청
+                long startTime = System.currentTimeMillis();
+                while (System.currentTimeMillis() < startTime + 10000) {
+                    // Waiting for 10 seconds
+                }
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}

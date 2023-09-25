@@ -1,0 +1,123 @@
+1690158569727	Delete element
+1690158587207	Delete element
+1690160860027	Rename type 'java_test'
+1690161250449	Rename type 'java_my_info'
+1690161257857	Rename type 'java_1_10합'
+1690161265154	Rename type 'java_1_1'
+1690164689887	Rename type 'BreakEx'
+1690164708642	Rename type 'JavaBreakEx'
+1690164752864	Copy compilation unit
+1690164761973	Rename type 'Java_1_2_BreakEx'
+1690165518268	Copy compilation unit
+1690166729269	Copy compilation unit
+1690167161910	Rename resource 'Untitled 1'
+1690167502975	Delete element
+1690167601598	Delete element
+1690167616832	Delete element
+1690167736884	Delete element
+1690167910205	Rename type 'Java_1_4_ContinueEX'
+1690167927185	Rename type 'Java_1_5_FileEx'
+1690168197772	Copy compilation unit
+1690169248477	Copy compilation unit
+1690169280312	Rename type 'Java_1_7_CordMonkey'
+1690176147310	Copy compilation unit
+1690176175583	Rename type 'Java_1_3_메뉴'
+1690176194870	Rename type '메뉴'
+1690180114635	Copy compilation unit
+1690180769091	Copy compilation unit
+1690180875003	Copy compilation unit
+1690180936790	Copy compilation unit
+1690181262773	Copy compilation unit
+1690181315031	Copy compilation unit
+1690181401755	Copy compilation unit
+1690182212355	Rename type 'Java_1_10합'
+1690182229388	Rename type 'Java_구구단'
+1690182238883	Rename type 'Java_별9'
+1690182244961	Rename type 'Java_별하나'
+1690182258026	Rename type 'Java_수구하기'
+1690182263698	Rename type 'Java_고객정보'
+1690182272635	Rename type 'Java_일정관리'
+1690182280539	Rename type 'Java_일정관리반복'
+1690182289277	Rename type 'Java_짝수구하기'
+1690182515491	Move compilation units
+1690182600708	Delete element
+1690186533950	Delete element
+1690250808896	Copy compilation unit
+1690251739778	Copy compilation unit
+1690255552052	Copy compilation unit
+1690261786618	Copy compilation unit
+1690266885704	Copy compilation unit
+1690267538925	Rename type 'Java1_2_ArrayEX5'
+1690267549391	Rename type 'Java1_2_ArrayEX6'
+1690267561502	Rename type 'Java1_3_ArrayEX'
+1690268701356	Copy compilation unit
+1690269075134	Copy compilation unit
+1690330266888	Delete element
+1690330406866	Rename type 'Java_1_1_arrEX'
+1690331134772	Copy compilation unit
+1690334150322	Rename type 'Java_1_1_평균구하기'
+1690334268570	Copy compilation unit
+1690334279895	Rename type 'Java_1_1_약수구하기2'
+1690337431129	Copy compilation unit
+1690340058253	Copy compilation unit
+1690353414771	Copy compilation unit
+1690355388610	Copy compilation unit
+1690357188608	Copy compilation unit
+1690358994155	Copy compilation unit
+1690417511175	Rename type 'Java_1_1_'
+1690417831566	Extract method 'sum1'
+1690418006851	Extract method 'printSum'
+1690418165063	Copy compilation unit
+1690418379236	Extract method 'getsum2'
+1690418503769	Extract method 'getsum'
+1690418559957	Copy compilation unit
+1690418683982	Extract method 'getSum3'
+1690420113735	Copy compilation unit
+1690421007378	Delete element
+1690421060037	Copy compilation unit
+1690421125107	Extract method 'money1'
+1690422115574	Copy compilation unit
+1690427079061	Copy compilation unit
+1690427505791	Extract method 'selectDays'
+1690427815857	Extract method 'insertDay'
+1690428018208	Extract method 'updayeDay'
+1690428069433	Extract method 'deleteDay'
+1690428336741	Copy compilation unit
+1690428601502	Extract method 'insertDay'
+1690428829794	Extract method 'selectDay'
+1690433633880	Copy compilation unit
+1690435133093	Extract method 'sum1'
+1690435256297	Copy compilation unit
+1690435377543	Extract method 'star'
+1690435604699	Extract method 'star2'
+1690435637727	Copy compilation unit
+1690435688796	Extract method 'hello'
+1690435808988	Extract method 'hello'
+1690435898395	Extract method 'sum1'
+1690435964914	Copy compilation unit
+1690435974365	Rename type 'ex4'
+1690436238113	Rename compilation unit 'EX1.java'
+1690437701899	Extract method 'random'
+1690437752865	Copy compilation unit
+1690438436886	Extract method 'weatherAi'
+1690445092651	Extract method 'weather'
+1690445245710	Rename type 'EX3'
+1690445558569	Extract method 'index'
+1690503360879	Rename type 'Ja_1_1'
+1690503936745	Rename type '재사용성'
+1690504160981	Copy compilation unit
+1690504337917	Extract method 'insertItem'
+1690504576461	Extract method 'insert'
+1690504886597	Extract method 'updateItem'
+1690504903787	Extract method 'deleteItem'
+1690505344227	Extract method 'extracted'
+1690511168241	Copy compilation unit
+1690514679392	Copy compilation unit
+1690514726597	Copy compilation unit
+1690523949593	Extract method 'inPut'
+1690523973499	Extract method 'input2'
+1690523981405	Extract method 'input3'
+1690523991276	Extract method 'input5'
+1690525420453	Rename compilation unit 'james.java'
+1690526148036	Rename type 'shopPing'
+1690531136564	Rename type '문제풀이'

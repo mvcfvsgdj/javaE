@@ -1,0 +1,122 @@
+package 티켓팅프로그램.copy.copy.copy.copy;
+
+import java.util.Scanner;
+
+public class TicketingMain {
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+
+		Area sectorA_DaysA = new Area("res/Concert/sectorA_DaysA.txt", 10);
+		Area sectorB_DaysA = new Area("res/Concert/sectorB_DaysA.txt", 10);
+		Area sectorS_DaysA = new Area("res/Concert/sectorS_DaysA.txt", 10);
+		Area sectorV_DaysA = new Area("res/Concert/sectorV_DaysA.txt", 7);
+
+		Area sectorA_DaysB = new Area("res/Concert/sectorA_DaysB.txt", 10);
+		Area sectorB_DaysB = new Area("res/Concert/sectorB_DaysB.txt", 10);
+		Area sectorS_DaysB = new Area("res/Concert/sectorS_DaysB.txt", 10);
+		Area sectorV_DaysB = new Area("res/Concert/sectorV_DaysB.txt", 7);
+
+		Area sectorA_DaysC = new Area("res/Concert/sectorA_DaysC.txt", 10);
+		Area sectorB_DaysC = new Area("res/Concert/sectorB_DaysC.txt", 10);
+		Area sectorS_DaysC = new Area("res/Concert/sectorS_DaysC.txt", 10);
+		Area sectorV_DaysC = new Area("res/Concert/sectorV_DaysC.txt", 7);
+
+		Area[][] SectorAll = { { sectorV_DaysA, sectorS_DaysA, sectorA_DaysA, sectorB_DaysA }, // 금요일
+				{ sectorV_DaysB, sectorS_DaysB, sectorA_DaysB, sectorB_DaysB }, // 토요일
+				{ sectorV_DaysC, sectorS_DaysC, sectorA_DaysC, sectorB_DaysC } };// 일요일
+
+		
+		
+		// 폴더 생성
+		FileManager.InitFolder();
+
+	
+		Area[] Sector = null; //초기값 설정안하면 작동 안함
+		char days = '0';
+		loop3 :	while (true) {
+			System.out.println("금 , 토 , 일 중 요일을 선택하세요");
+			loop: while (true) {
+				days = sc.next().charAt(0);
+				switch (days) {
+				case '금':
+					Sector = SectorAll[0];
+					break loop;
+				case '토':
+					Sector = SectorAll[1];
+					break loop;
+				case '일':
+					Sector = SectorAll[2];
+					break loop;
+
+				default:
+	
+					System.out.println("요일이 잘못되었습니다. 금 , 토 , 일 중 다시 입력해주세요");
+					break ;
+				}
+
+			}
+			// 파일, 배열 생성
+			for (int i = 0; i < Sector.length; i++) {
+				FileManager.InitFile(Sector[i]);
+			}
+
+
+			System.out.println("콘서트 좌석을 예매합니다 아래 메뉴중 원하시는 목록을 입력 해주세요 .");
+
+			loop2: while (true) {
+				System.out.println("\n\n 1.등록 2.조회 3.변경 4.취소 5.총수익 6.요일선택 7.종료");
+				String menu = "0";
+				menu = sc.next();
+
+				switch (menu) {
+				case "1":
+					
+					ReservationManager.reservationConfirm(Sector);
+					System.out.println("\n--좌석 구역과 좌석을 선택해주세요--, 구역:A,B,S,V \n ");
+					ReservationManager.reservationSeat(sc, Sector);
+					break;
+				case "2":
+					ReservationManager.reservationConfirm(Sector);
+					break;
+				case "3":
+					ReservationManager.reservationConfirm(Sector);
+					System.out.println("좌석을 변경합니다.");
+					ReservationManager.reservationChange(sc, Sector);
+					break;
+				case "4":
+					ReservationManager.reservationConfirm(Sector);
+					System.out.println("좌석을 취소합니다.");
+					ReservationManager.reservationDelete(sc, Sector);
+					break;
+
+				case "5":
+					ReservationManager.totalPrice(Sector);
+					break;
+
+				case "6":
+					System.out.println("요일선택");
+					// 파일 저장 * 아웃시 파일에저장
+					for (int i = 0; i < Sector.length; i++) {
+						FileManager.FileSave(Sector[i]);
+					}
+					break loop2;
+				case "7":
+					System.out.println("종료합니다");
+					// 파일 저장 * 루프아웃시 파일에저장
+					for (int i = 0; i < Sector.length; i++) {
+						FileManager.FileSave(Sector[i]);
+					}
+					break loop3;
+				default:
+					System.out.println("잘못된 메뉴 선택입니다.");
+					break;
+
+				}
+
+			}
+
+		}
+	}
+
+}

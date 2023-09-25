@@ -1,0 +1,78 @@
+1690849036579	Rename type 'mile_test'
+1690849040056	Rename type 'mile'
+1690849702018	Copy compilation unit
+1690849788749	Copy compilation unit
+1690850072301	Copy compilation unit
+1690850075559	Copy compilation unit
+1690850172379	Rename type 'Mile2Test3'
+1690850526204	Copy compilation unit
+1690852384319	Rename package 'java_day10'
+1690852493907	Rename type 'movieClass'
+1690852498242	Rename type 'movieTest'
+1690853048833	Copy compilation unit
+1690853560366	Copy compilation unit
+1690856270861	Delete element
+1690856573649	Copy compilation unit
+1690856661309	Copy compilation unit
+1690860978803	Copy compilation unit
+1690860987279	Copy compilation unit
+1690860991282	Copy compilation unit
+1690867728853	Copy compilation unit
+1690867739805	Copy compilation unit
+1690868863912	Delete element
+1690868895363	Delete element
+1690869734737	Copy package
+1690869738518	Delete elements
+1690870198043	Rename type 'Sutdent'
+1690870287767	Copy package
+1690872394386	Rename type 'DOG'
+1690879577120	Copy compilation units
+1690879582888	Copy compilation unit
+1690934238121	Rename compilation unit 'Animal.java'
+1690934247401	Rename type 'Cat'
+1690934402941	Rename compilation unit 'Dog.java'
+1690934407486	Rename type 'CatTest'
+1690934822759	Rename type '피자'
+1690934827776	Rename type 'pizza'
+1690934842850	Rename compilation unit '피자테스트.java'
+1690936056743	Rename package '예제.병진_동물원'
+1690938085660	Rename package 'java_day11'
+1690942286622	Delete element
+1690945092442	Rename type 'a'
+1690945094382	Rename type 'b'
+1690947553838	Delete element
+1690952811416	Copy compilation unit
+1690953597787	Copy compilation unit
+1690953696505	Copy compilation unit
+1690954552379	Delete element
+1690955207432	Rename type 'MyCalculator'
+1690957442065	Copy compilation unit
+1690957445142	Delete element
+1690957446773	Delete element
+1690959842927	Rename type 'PizzaP'
+1690959964243	Copy compilation unit
+1690960037911	Delete element
+1691020597660	Rename package 'java_day11'
+1691026729498	Rename type 'Ex1'
+1691039282790	Copy compilation unit
+1691041065306	Rename package 'java_day12StringEx'
+1691043963284	Copy package
+1691043974039	Delete element
+1691045387319	Extract method 'extracted'
+1691046817454	Extract method 'printjava'
+1691107745139	Copy compilation units
+1691112947100	Rename package 'java_day13StringEx.equals오버라이드복습'
+1691113473079	Copy compilation unit
+1691113479965	Rename type 'Ex01'
+1691115119530	Delete element
+1691116053854	Copy compilation unit
+1691116061108	Copy compilation unit
+1691116144779	Rename compilation unit 'NegativeNumberException2.java'
+1691116175457	Rename type 'MyMath2'
+1691120301277	Rename resource 'Test'
+1691120317144	Rename resource 'Test.txt'
+1691125395407	Rename resource 'acron.txt'
+1691125637464	Copy compilation unit
+1691125878291	Copy compilation unit
+1691126286403	Delete element
+1691127693469	Copy compilation unit
